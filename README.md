@@ -2,7 +2,7 @@
 Rental App
 
 Task tracker App is just an app for task, A basic CRUD  for fun.
-This is also for a tutorial.
+Frontend like you know is made by using react-js and Database made using json-server.
 
 ---
 ### Author
@@ -15,6 +15,7 @@ This is also for a tutorial.
 git clone https://github.com/mataa-hewa-leroy/tracking-app.git
 cd tracking-app
 npm install
+npm server
 ```
 ---
 
