@@ -6,12 +6,15 @@ const Task = ({task, onDelete, onToogle, showTask, onUpdate}) => {
             () => onToogle(task.id)
         }>
             <h3>{task.text}
-            <FaEdit style={{color: 'green'}}
+                <div>
+                <FaEdit style={{color: 'green'}}
             onClick={()=> onUpdate(task.id)}
              />
              <FaTimes style={{color: 'red', cursor: 'pointer'}} 
                 onClick={() => onDelete(task.id)}
-             /> </h3>
+             />
+                </div>
+            </h3>
             <p>{task.day}</p>
         </div>
     )
